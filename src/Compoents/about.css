@@ -1,0 +1,103 @@
+*{
+    margin: 0px auto;
+    padding: 0;
+}
+
+
+/* 상단 */
+.top{
+    width: 1000px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.top img
+{
+    float: left;
+}
+
+.top div{
+    width: 750px;
+    height: 500px;
+    float: left;
+}
+
+.top div > div{
+    width: 210px;
+    height: 210px;
+    padding: 20px;
+
+    margin-top: 250px;
+    background-color: lightseagreen;
+
+    float: left;
+}
+
+.small_box_txt {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
+/* ALL Box */
+.ALL_Box {
+    width: 1000px;
+    height: 500px;
+
+    background-color: yellow    ;
+}
+
+.ALL_Box > div{
+    width: 210px;
+    height: 210px;
+    padding: 20px;
+
+    float: left;
+}
+
+.ALL_Box > div:nth-child(4){
+    height: 460px;
+    float: right;
+}
+
+.ALL_Box > div:nth-child(2),
+.ALL_Box > div:nth-child(5),
+.ALL_Box > div:nth-child(7)
+{
+    background-color: brown;
+}
+
+.ALL_Box > div:nth-child(4){
+    background-color: lightblue;
+}
+
+
+/* 아래 메뉴 바 */
+.footer{
+    width: 1000px;
+    height: 40px;
+}
+
+.footer div{
+    width: 750px;
+    height: 100%;
+
+    background-color: gray;
+    margin: 0;
+}
+
+.footer p{
+    padding: 10px 0px 0px 10px;
+
+    display: inline-block;
+}
+
+.footer p::after{
+    content: "|";
+    color: chocolate;
+    padding-left: 10px;
+}
+
+.footer p:last-child::after{
+    content: "";
+}
