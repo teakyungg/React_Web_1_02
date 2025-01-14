@@ -1,5 +1,5 @@
-import Index from './Compoents/index.js';
-import About from './Compoents/about.js';
+import Index from './Pages/index.js';
+import About from './Pages/about.js';
 import { Route, Routes, Link } from 'react-router-dom';
 
 function App() {
