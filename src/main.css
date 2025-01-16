@@ -1,0 +1,105 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/* header안에 들어있는 박스들 */
+.Header_Box {
+    width: 1200px;
+    height: 100px;
+
+    text-align: center;
+}
+
+.Header_Box>li:nth-child(n+4) {
+    float: right;
+}
+
+.Header_Box>img {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* menu 텍스트 */
+.Menu_txt {
+    margin: 60px 40px 0px 40px;
+    float: left;
+
+    font-weight: bold;
+    list-style: none;
+}
+
+.Menu_txt:hover {
+    text-decoration: underline;
+}
+
+/* Main_img */
+.Main_img {
+    width: 100%;
+}
+
+
+/* Icon title의 박스*/
+.IconTitle_Box {
+
+    width: 100%;
+    text-align: center;
+
+    padding: 30px 0px 0px 30px;
+}
+
+/* Icon title안에 들어가 있는 텍스트*/
+.Title_txt > p {
+    font-size: 15px;
+}
+
+.Title_txt>h2 {
+    font-size: 25px;
+}
+
+
+
+
+/* Icon 박스 내용*/
+.IconElement {
+    width: 250px;
+
+    float: left; 
+    text-align: center;
+
+    margin: 30px;
+}
+
+.IconElement p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/* Icon 박스 */
+.IconBox {
+    width: 1300px;
+    height: 250px;
+
+    margin: 0 auto;
+}
+
+
+/* ChefsElement */
+.ChefsElement > div {
+    float: left;
+    width: 530px;
+
+    padding-top: 100px;
+    padding-right: 60px;
+}
+
+
+/* ChefsBox */
+.ChefsBox {
+    width: 1000px;
+    margin: 0 auto;
+}
