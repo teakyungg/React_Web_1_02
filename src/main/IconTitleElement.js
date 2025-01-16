@@ -1,4 +1,4 @@
-import './main.css';
+import '../main.css';
 
 function Title_txt({ 작은제목, 큰제목 }) {
 

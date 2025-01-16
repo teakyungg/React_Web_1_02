@@ -1,4 +1,4 @@
-import './main.css'
+import '../main.css'
 
 function IconElement({아이콘 , 내용})
 {

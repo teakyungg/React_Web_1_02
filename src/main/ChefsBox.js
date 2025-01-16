@@ -1,6 +1,6 @@
-import './main.css';
+import '../main.css';
 import ChefsElement from './ChefsElement.js';
-import {index_data} from './data.js';
+import {index_data} from '../data.js';
 
 function ChefsBox(){
     return(

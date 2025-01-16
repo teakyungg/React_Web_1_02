@@ -1,5 +1,5 @@
 import IconTitleElement from './IconTitleElement';
-import {index_data} from './data.js';
+import {index_data} from '../data.js';
 
 function IconTitleBox() {
 

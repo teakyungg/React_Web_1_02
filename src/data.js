@@ -1,6 +1,8 @@
 export let index_data = {
 
     헤더_메뉴: ["How to Works", "Girts", "About", "Contracts", "Members", "Login"], 
+    이동_주소: ["/","/",'/about',"/","/","/"],
+
     로고: "/logo.png",
     메인_이미지: "/main.png",
     아이콘: ["/icon1.png", "/icon2.png", "/icon3.png", "/icon4.png"],
