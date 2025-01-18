@@ -3,8 +3,6 @@ import MainPage from './MainPage.js';
 import AboutPage from './AboutPage.js';
 
 
-
-
 export default function App() {
 
 
@@ -14,7 +12,7 @@ export default function App() {
 
       <Routes>
         <Route path='/' element={<MainPage />} />
-        <Route path='/about' element={<AboutPage />} />
+        <Route path='/about' element={<AboutPage />} /> 
       </Routes>
 
     </div>

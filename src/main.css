@@ -1,39 +1,47 @@
 * {
-    margin: 0 auto;
-    padding: 0;
+    margin: 0;
 }
+
+
 
 
 /* header안에 들어있는 박스들 */
-.Header_Box {
+.Main_Header {
     width: 1200px;
     height: 100px;
-
-    text-align: center;
+    margin: 0 auto;
 }
 
-.Header_Box>li:nth-child(n+4) {
+.Main_Header>li:nth-child(n+4) {
     float: right;
 }
 
-.Header_Box>img {
+.Main_Header>img {
     text-align: center;
     margin-top: 10px;
 }
 
-
-/* menu 텍스트 */
-.Menu_txt {
-    margin: 60px 40px 0px 40px;
+.MoveToPage {
     float: left;
-
-    font-weight: bold;
     list-style: none;
+    text-align: center;
+
+    margin: 50px 50px 0px 50px;
 }
 
-.Menu_txt:hover {
+.MoveToPage:hover {
     text-decoration: underline;
 }
+
+hr {
+    height: 2px;
+    background-color: black;
+    margin: 0;
+    border: 0;
+}
+
+
+
 
 /* Main_img */
 .Main_img {
@@ -41,65 +49,86 @@
 }
 
 
-/* Icon title의 박스*/
-.IconTitle_Box {
+
+
+
+/* Icon title의 박스 */
+.Main_IconTitle {
 
     width: 100%;
     text-align: center;
 
-    padding: 30px 0px 0px 30px;
+    padding: 30px 0px 30px 0px;
 }
 
-/* Icon title안에 들어가 있는 텍스트*/
-.Title_txt > p {
+.Main_IconTitle .TextDisplay p:nth-child(1) {
     font-size: 15px;
 }
 
-.Title_txt>h2 {
-    font-size: 25px;
+.Main_IconTitle .TextDisplay p:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
 
 
-/* Icon 박스 내용*/
-.IconElement {
-    width: 250px;
 
-    float: left; 
+
+
+/* Icon 박스 */
+.Main_Icons {
+    margin: 0 auto;
     text-align: center;
-
-    margin: 30px;
 }
 
-.IconElement p {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-size: 14px;
+
+.Main_Icons>.ImageExplanation {
+    display: inline-block;
+    padding: 20px;
+    width: 250px;
+}
+
+.Main_Icons>.ImageExplanation>p {
     line-height: 25px;
 }
 
-/* Icon 박스 */
-.IconBox {
-    width: 1300px;
-    height: 250px;
 
-    margin: 0 auto;
-}
-
-
-/* ChefsElement */
-.ChefsElement > div {
-    float: left;
-    width: 530px;
-
-    padding-top: 100px;
-    padding-right: 60px;
-}
 
 
 /* ChefsBox */
-.ChefsBox {
-    width: 1000px;
-    margin: 0 auto;
+.Main_Chef {
+    width: 100%;
+    background-color: lightgray;
+
+    text-align: center;
+}
+
+.Main_Chef>.TextDisplay {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 550px;
+    margin-top: 100px;
+}
+
+.Main_Chef>img {
+    display: inline-block;
+}
+
+.Main_Chef>.TextDisplay p {
+    text-align: left;
+    padding: 0px 30px 0px 30px;
+}
+
+.Main_Chef>.TextDisplay>p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.Main_Chef>.TextDisplay>p:nth-child(2) {
+    font-size: 15px;
+    line-height: 25px;
 }

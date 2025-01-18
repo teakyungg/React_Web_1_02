@@ -1,24 +1,18 @@
-import IconElements from './IconElement';
-import {index_data} from '../data';
-import '../main.css';
+import ImgExplain from '../modules/ImageExplanation.js';
 
-function IconBox()
+function IconBox({img , content})
 {
-    let box = [];
-
-    for(let i=0;i<4;i++) 
-    {
-        box.push(<IconElements 아이콘={index_data.아이콘[i]} 내용 = {index_data.아이콘_내용[i]} key={i}/>)
-    }
-
+    let box =[];
+    for(let i=0;i<4;i++) box.push( <ImgExplain img={img[i]} content={content[i]}/>);
 
     return(
 
-        <div className="IconBox">
+        <div className='Main_Icons'>
             {box}
         </div>
 
     );
+    
 }
 
 export default IconBox;

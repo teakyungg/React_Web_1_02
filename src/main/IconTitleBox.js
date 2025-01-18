@@ -1,11 +1,10 @@
-import IconTitleElement from './IconTitleElement';
-import {index_data} from '../data.js';
+import TextExplain from '../modules/TextDisplay.js';
 
-function IconTitleBox() {
+function IconTitleBox({title , content}) {
 
     return (
-        <div className="IconTitle_Box">
-            <IconTitleElement 작은제목={index_data.소제목} 큰제목={index_data.소제목_내용}/>
+        <div className= 'Main_IconTitle'>
+            <TextExplain title = {title} content={content}/>
         </div>
     );
 }

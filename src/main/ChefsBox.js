@@ -1,11 +1,11 @@
-import '../main.css';
-import ChefsElement from './ChefsElement.js';
-import {index_data} from '../data.js';
+import TextExplain from '../modules/TextDisplay.js'
 
-function ChefsBox(){
+function ChefsBox({title, content, img}){
+
     return(
-        <div className='ChefsBox'>
-            <ChefsElement 타이틀 = {"Title"} 내용 = {index_data.셰프내용}/>
+        <div className='Main_Chef'>
+           <TextExplain title={title} content={content}/>
+           <img src= {img}/>   
         </div>
     );
 }

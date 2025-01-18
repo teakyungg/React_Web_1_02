@@ -25,8 +25,8 @@ export let index_data = {
 
 export let about_data = {
 
-    chef_about: '/chef_about.png',
-    sub_img : { one : '/right1.png' , two : '/right2.png'},
+    헤더_이미지 : ['/chef_about.png','/right1.png','/right2.png'],
+
 
     작은_제목: "GLOBAL BUSINESS",
     작은_내용: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

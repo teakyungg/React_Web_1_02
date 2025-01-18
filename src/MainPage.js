@@ -1,38 +1,36 @@
-import HeaderBox from './main/HeaderBox.js';
+import './main.css';
+import Header_Box from './main/HeaderBox.js';
 import IconTitleBox from './main/IconTitleBox.js';
 import IconBox from './main/IconBox.js';
 import ChefsBox from './main/ChefsBox.js';
-import './main.css';
-
 import { index_data } from './data.js';
+
 
 function Main() {
 
-    return (
-  
-      <>
-        {/* header 박스 */}
-        <div style={{ borderBottom: '2px solid black' }}>
-          <HeaderBox />
-        </div>
-  
-        {/* img 박스 */}
-        <img src={index_data.메인_이미지} className='Main_img' />
-  
-        {/* icon 타이틀 박스 */}
-        <IconTitleBox />
-  
-        {/* icon 박스 */}
-        <IconBox />
-  
-        {/* chefs 박스 */}
-        <div style={{ width: '100%', backgroundColor: 'lightgray' }}>
-          <ChefsBox />
-        </div>
-      </>
-  
-    )
-  
-  }
+  return (
 
-  export default Main;
+    <>
+      {/* 상단 메뉴 */}
+      <Header_Box pageName={index_data.헤더_메뉴} nextpage={index_data.이동_주소} />
+      <hr />
+
+      {/* 메인 이미지 */}
+      <img src={index_data.메인_이미지} className='Main_img' />
+
+      {/* 아이콘 타이틀 */}
+      <IconTitleBox title={index_data.소제목} content={index_data.소제목_내용} />
+
+      {/* 아이콘 내용 */}
+      <IconBox img={index_data.아이콘} content={index_data.아이콘_내용} />
+
+      {/* 셰프 내용 */}
+      <ChefsBox title={"TITLE"} content={index_data.셰프내용} img={index_data.셰프} />
+
+    </>
+
+  )
+
+}
+
+export default Main;
