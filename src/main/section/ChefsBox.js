@@ -1,4 +1,4 @@
-import TextExplain from '../modules/TextDisplay.js'
+import TextExplain from '../../modules/TextDisplay.js'
 
 function ChefsBox({title, content, img}){
 

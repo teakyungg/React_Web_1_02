@@ -1,9 +1,9 @@
-import './about.css';
-import HeaderBox from './about/HeaderBox.js';
-import MainBox from './about/MainBox.js';
-import Footer from './about/Footer.js';
+import '../about.css';
+import HeaderBox from './section/HeaderBox.js';
+import MainBox from './section/MainBox.js';
+import Footer from './section/Footer.js';
 
-import { about_data } from './data.js';
+import { about_data } from '../data.js';
 
 function about() {
 

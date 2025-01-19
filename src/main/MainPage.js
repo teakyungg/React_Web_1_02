@@ -1,9 +1,9 @@
-import './main.css';
-import Header_Box from './main/HeaderBox.js';
-import IconTitleBox from './main/IconTitleBox.js';
-import IconBox from './main/IconBox.js';
-import ChefsBox from './main/ChefsBox.js';
-import { index_data } from './data.js';
+import '../main.css';
+import Header_Box from './section/HeaderBox.js';
+import IconTitleBox from './section/IconTitleBox.js';
+import IconBox from './section/IconBox.js';
+import ChefsBox from './section/ChefsBox.js';
+import { index_data } from '../data.js';
 
 
 function Main() {

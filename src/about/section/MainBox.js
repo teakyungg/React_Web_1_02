@@ -1,4 +1,4 @@
-import TextDisplay from '../modules/TextDisplay.js';
+import TextDisplay from '../../modules/TextDisplay';
 
 function MainBox({title, content})
 {

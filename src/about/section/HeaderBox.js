@@ -1,5 +1,4 @@
-import ImgTextBox from '../modules/TextOnImage.js';
-
+import ImgTextBox from '../../modules/TextOnImage.js';
 
 function HeaderBox({ img, title, text }) {
 

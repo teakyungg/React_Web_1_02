@@ -1,4 +1,4 @@
-import ImgExplain from '../modules/ImageExplanation.js';
+import ImgExplain from '../../modules/ImageExplanation.js';
 
 function IconBox({img , content})
 {

@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
-import MainPage from './MainPage.js';
-import AboutPage from './AboutPage.js';
+import MainPage from './main/MainPage.js';
+import AboutPage from './about/AboutPage.js';
 
 
 export default function App() {

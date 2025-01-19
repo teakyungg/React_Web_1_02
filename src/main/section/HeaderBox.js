@@ -1,4 +1,4 @@
-import MoveToPage from '../modules/MoveToPage.js';
+import MoveToPage from '../../modules/MoveToPage.js';
 
 /* header의 전체 박스 */
 function Header_Box({ pageName, nextpage}) {
