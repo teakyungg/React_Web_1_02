@@ -1,111 +1,111 @@
-/* header 이미지 */
+/* About_Header */
 .About_Header {
     width: 1000px;
     height: 500px;
-
-    padding-top: 10px;
-
+    
     margin: 0 auto;
+    margin-top: 20px;
+
+    position: relative;
 }
 
-.About_Header>div:nth-child(1) {
+.About_Header>div {
     width: 750px;
     height: 500px;
     float: left;
 }
 
-.About_Header>.OnImage:nth-child(1)>.OnText {
-    width: 250px;
-    height: 250px;
-    background-color: rgb(0, 255, 0, 0.3);
-
-    margin-top: 250px;
-}
-
-.About_Header>div:nth-child(1)>div>h2 {
-    width: 100px;
-
-    padding: 20px 10px 10px 20px;
-
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.About_Header>div:nth-child(1)>div>p {
-    padding: 10px;
-    font-size: 14px;
-    padding: 10px 10px 10px 20px
-}
-
-
-.About_Header>div:nth-child(2),
-.About_Header>div:nth-child(3) {
-    width: 250px;
-    height: 250px;
+.About_Header img {
     float: left;
 }
 
+.About_Header_box {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(133, 255, 92, 0.7);
 
-/* 중간에 박스*/
-.About_Main {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.About_Header_box li{
+    margin-top: 10px;
+}
+
+
+/* About_Main */
+.About_Main
+{
     width: 1000px;
     height: 500px;
-
-    margin: 0 auto;
 }
 
-.About_Main>.TextDisplay {
+.About_Main div
+{
+    width: 250px;
+    height: 250px;
+
     float: left;
-    width: 210px;
-    height: 210px;
+
+    box-sizing: border-box;
     padding: 20px;
 
     background-color: yellow;
 }
 
-.About_Main>.TextDisplay:nth-child(4) {
+.About_Main div:nth-child(2),
+.About_Main div:nth-child(5),
+.About_Main div:nth-child(7 )
+{
+    background-color: lightsalmon;
+}
+
+.About_Main div:nth-child(4)
+{
+    height: 500px;
     float: right;
-    height: 460px;
     background-color: lightblue;
 }
 
-.About_Main>.TextDisplay:nth-child(2),
-.About_Main>.TextDisplay:nth-child(5),
-.About_Main>.TextDisplay:nth-child(7) {
-    background-color: brown;
-}
 
-.About_Main>.TextDisplay>p:nth-child(1) {
-    font-size: large;
-    font-weight: bold;
-}
-
-
-
-/* 맨 밑에 footer */
-.About_Footer {
+/* About_Footer */
+.About_Footer
+{
     width: 1000px;
+    height: 40px;
+
     margin: 0 auto;
 }
 
-.About_Footer>div {
+.About_Footer ul
+{
     width: 750px;
-    height: 40px;
-    background-color: gray;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
 }
 
-.About_Footer>div>p {
+.About_Footer li
+{
     float: left;
-    padding: 10px 0px 10px 10px;
-    
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-.About_Footer>div>p::after{
+.About_Footer li::after
+{
     content: '|';
     color: orange;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
-.About_Footer>div>p:last-child::after{
-    content: none;
+.About_Footer li:last-child::after  
+{
+    content: '';
 }
