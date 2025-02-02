@@ -4,14 +4,12 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "imgtextdisplay": "github:teakyungg/ImgTextDisplay",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "^5.0.1",
-
-    
-    "textdisplay": "file:../../react_module/src/TextDisplay",
-    "imgtextdisplay": "github:teakyungg/ImgTextDisplay"
+    "textdisplay": "github:teakyungg/TextDisplay"
   },
   "scripts": {
     "start": "react-scripts start",
