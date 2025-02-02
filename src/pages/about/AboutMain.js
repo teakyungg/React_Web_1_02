@@ -1,4 +1,4 @@
-import TextDisplay from "../../modules/display/TextDisplay";
+import TextDisplay from "textdisplay";
 
 // 어떤 데이터를, 몇개를, 어떤 변수에 넣을 것인가? 
 function AboutMain({ small_box_data }) {   // 데이터 가공만 담당
@@ -25,8 +25,10 @@ function AboutMain({ small_box_data }) {   // 데이터 가공만 담당
 
         if(i == 3) title = '4.';
 
-        small_box.push(<TextDisplay title={title} content={content} />);
+        small_box.push(<TextDisplay title={title} contents={content} />);
     }
+
+    console.log(small_box);
 
     return <Render small_box={small_box} />
 }

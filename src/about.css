@@ -2,7 +2,7 @@
 .About_Header {
     width: 1000px;
     height: 500px;
-    
+
     margin: 0 auto;
     margin-top: 20px;
 
@@ -32,24 +32,23 @@
     padding: 20px;
 }
 
-.About_Header_box li{
+.About_Header_box li {
     margin-top: 10px;
 }
 
 
 /* About_Main */
-.About_Main
-{
+.About_Main {
     width: 1000px;
     height: 500px;
 }
 
-.About_Main div
-{
+.About_Main>div {
     width: 250px;
     height: 250px;
 
     float: left;
+
 
     box-sizing: border-box;
     padding: 20px;
@@ -57,15 +56,15 @@
     background-color: yellow;
 }
 
-.About_Main div:nth-child(2),
-.About_Main div:nth-child(5),
-.About_Main div:nth-child(7 )
+.About_Main>div:nth-child(2),
+.About_Main>div:nth-child(5),
+.About_Main>div:nth-child(7 )
 {
     background-color: lightsalmon;
 }
 
-.About_Main div:nth-child(4)
-{
+
+.About_Main>div:nth-child(4) {
     height: 500px;
     float: right;
     background-color: lightblue;
@@ -73,16 +72,14 @@
 
 
 /* About_Footer */
-.About_Footer
-{
+.About_Footer {
     width: 1000px;
     height: 40px;
 
     margin: 0 auto;
 }
 
-.About_Footer ul
-{
+.About_Footer ul {
     width: 750px;
     height: 100%;
 
@@ -91,21 +88,18 @@
     background-color: lightgray;
 }
 
-.About_Footer li
-{
+.About_Footer li {
     float: left;
     margin-left: 10px;
     margin-top: 10px;
 }
 
-.About_Footer li::after
-{
+.About_Footer li::after {
     content: '|';
     color: orange;
     margin-left: 10px;
 }
 
-.About_Footer li:last-child::after  
-{
+.About_Footer li:last-child::after {
     content: '';
 }

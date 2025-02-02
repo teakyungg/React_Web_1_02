@@ -12,6 +12,10 @@ import AboutFooter from './pages/about/AboutFooter';
 import './main.css';
 import './about.css';
 
+
+
+
+
 export default function App() {
 
   const main_header = [
@@ -65,9 +69,14 @@ export default function App() {
   ];
 
 
+
+  
+
+
   return (
 
     <div className="App">
+      
       <Routes>
 
         {/* Main Page */}

@@ -1,11 +1,9 @@
-import ImgTextDisplay from "../../modules/display/ImgTextDisplay";
+import ImgTextDisplay from "imgtextdisplay";
+
 
 function MainIcon({ Icon_data }) {
 
-    let img = Icon_data.map((item) => item.img);
-    let text = Icon_data.map((item) => item.content);
-
-    let ImgText_box = Icon_data.map((num, i) => <ImgTextDisplay img={img[i]} contents={text[i]} />);
+    let ImgText_box = Icon_data.map((item) => <ImgTextDisplay img={item.img} contents={item.content}/>);
 
     return <Render ImgText_box={ImgText_box} />
 }
