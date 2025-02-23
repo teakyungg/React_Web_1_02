@@ -1,0 +1,32 @@
+#top{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+
+    position: relative;
+
+    background-color: beige;
+
+    div{
+        position: absolute;
+
+        width: 750px;
+        height: 500px;
+
+        background-image: url(/public/chef_about.png);
+    }
+
+    .InfoBox{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .subImg{
+        width: 250px;
+        height: 500px;
+        float: right;
+        font-size: 0;
+    }
+
+}
+
